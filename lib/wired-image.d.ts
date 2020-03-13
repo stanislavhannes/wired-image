@@ -1,9 +1,10 @@
-import { WiredBase } from 'wired-lib/lib/wired-base';
-import { Point } from 'wired-lib';
-import { TemplateResult, CSSResultArray } from 'lit-element';
+import { WiredBase } from "wired-lib/lib/wired-base";
+import { Point } from "wired-lib";
+import { TemplateResult, CSSResultArray } from "lit-element";
 export declare class WiredImage extends WiredBase {
     elevation: number;
     src: string;
+    alt: string;
     private resizeObserver?;
     private windowResizeHandler?;
     constructor();
